@@ -15,4 +15,25 @@ func main() {
 	case "Amir":
 		fmt.Println("name sudah benar")
 	}
+
+	//switch with short statement
+	switch lenght := len(name); lenght > 5 {
+	case true:
+		fmt.Println("nama terlalu panjang")
+	case false:
+		fmt.Println("nama sudah sesuai")
+	}
+
+	//switch without condition
+	switch {
+	case len(name) == 5:
+		fmt.Println("nama 5 kata")
+
+	case len(name) > 5:
+		fmt.Println("nama lebih dari 5 kata")
+
+	case len(name) < 5:
+		fmt.Println("nama kurang dari 5 kata")
+
+	}
 }
