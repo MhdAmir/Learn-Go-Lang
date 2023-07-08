@@ -85,3 +85,7 @@ t.Error(args...) ==> memberi log (print) error, setelah itu memanggil fungsi 't.
 
 t.Fatal(args...) ==> sama seperti error tapi manggil fungsi 't.FailNow()'
 */
+
+/**
+Skip ==> untuk membatalkan
+*/
