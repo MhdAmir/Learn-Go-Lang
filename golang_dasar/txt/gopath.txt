@@ -1,5 +1,3 @@
-/**
 GOPATH
 => Environment variable yang berisikan lokasi dimana kita menyimpan project & library golang
 => wajib di buat jika mempunyai lebih dari 1 file / menggunakan library luar
-*/

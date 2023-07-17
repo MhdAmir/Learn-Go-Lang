@@ -1,0 +1,8 @@
+Package
+-> tempat yang bisa digunakan untuk mengorganisir program di golang
+-> buat nyimpen seperti folder
+-> di dalam satu package fungsi harus nama yang berbeda jika sama akan terjadi error namun jika folder&packagenya berbeda boleh
+
+Import
+-> Standardnya, Golang cuma bisa ngakses file golang lainnya kalo 1 package
+-> jika ingin akses yang diluar bisa gunain Import

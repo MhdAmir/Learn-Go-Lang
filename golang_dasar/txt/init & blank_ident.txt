@@ -1,0 +1,13 @@
+Package Initialization
+
+> kita bisa membuat fungsi akan otomatis diakses jika packagenya diakses
+> untuk membuatnya hanya cukup buat fungsi dengan nama "init"
+
+Blank Identifier
+
+>jika diwaktu kita menjalankan init function di package tanpa harus
+mengeksekusi salah satu function yang ada di package
+>Secara default, golang akan complain ketika ada package yang di import
+namun tidak digunakan
+> untuk menangani hal tersebut bisa menggunakan blank identifier (_)
+sebelum nama package ketika melakukan import
